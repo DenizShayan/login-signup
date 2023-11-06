@@ -1,4 +1,5 @@
 import LoginSignup from './component/loginSignup/loginSignup';
+import {useState} from "react";
 
 function App() {
   const [seen, setSeen] = useState(false)
