@@ -8,7 +8,7 @@ function App() {
     return (
         <div>
             <button onClick={togglePop}>Login</button>
-            {seen ? <Login toggle={togglePop} : null} />
+            {seen ? <Login toggle={togglePop} /> : null} 
         </div>
     )
 }
